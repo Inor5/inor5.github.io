@@ -1,0 +1,83 @@
+#homepage {
+    background-color: darkred;
+    border: 2px solid black;
+    color: ivory;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    float: right;
+  }
+  
+  img {
+      display: block;
+      border: 2px darkred ridge;
+      float: right;
+   }
+  
+  body {
+      background-color: ivory;
+   }
+  
+  
+  .container1 {
+    position: relative;
+    width: 252px;
+    float: right;
+  }
+  
+  div .container1 {
+      text-align: center;
+  
+  }
+  
+  
+  .text {
+      text-align: center;
+      color: black;
+      font-size: 16px;
+      position: absolute;
+      float: right;
+      top: 50%;
+      left: 50%;
+  }
+  
+  .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: darkred;
+  }
+  
+  
+   .container1:hover .overlay {
+    opacity: 1;
+  }
+  
+  p {
+      font-weight: bold;
+      color: darkred;
+      font-size: 12pt;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  ul {
+      color: ivory;
+  }
+  
+  li {
+      font-weight: bold;
+      color: ivory;
+      font-size: 12pt;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  section {
+      background-color: ivory;
+      float: right;
+      border-top: 2px;
+   }

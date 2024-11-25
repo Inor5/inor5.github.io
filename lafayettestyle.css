@@ -1,0 +1,155 @@
+css * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    background-color: ivory;
+  }
+  
+  body {
+    font-family: TimesNewRoman;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: darkred;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+  
+  h3 {
+    background-color: ivory;
+    color: darkred;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  .column1 {
+    float: left;
+    width: 27%;
+    height: 110%;
+    padding: 13px; 
+    border: 3px ridge darkred;
+  }
+  
+  nav a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 7px;
+    border-top: 15px;
+    border-bottom: 8px;
+    background: ivory;
+    border: 2px ridge maroon;
+  }
+  
+  nav a:hover {
+    background-color: brown;
+    color: ivory;
+  }
+  
+  nav a.active {
+    background-color: maroon;
+    color: white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  
+  .column2 {
+    float: right;
+    width: 70%;
+    height: 100%;
+    color: ivory;
+  }
+  
+  table {
+    margin-right: 25px;
+    margin-left: 7px;
+    background-color: ivory;
+    border: 3px darkred solid;
+    color: darkred;
+    padding: 5px;
+    border-bottom: 10px;
+  }
+  
+  th {
+    border-top: 5px;
+    float: center;
+    text-decoration: underline;
+    padding: 5px;
+    padding-left: 10px;
+    border: 3px darkred ridge;
+  }
+  
+  tr {
+    padding-bottom: 10px;
+  }
+  
+  td {
+    border: 3px darkred ridge;
+    padding: 2px;
+    font-size: 14pt;
+    font-weight: normal;
+    padding-bottom: 2px;
+    height: 15px;
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  img {
+    display: block;
+    float: none;
+    justify-content: space-evenly;
+    border: 3px solid maroon;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  
+  section div {
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-right: 15px;
+  }
+  
+  
+  .gallery {
+    display: block;
+    float: left;
+    justify-content: space-between;
+    padding-right: 5px;
+  }
+  
+  div.desc {
+    text-align: center;
+    border: 2px solid black;
+    background-color: ivory;
+  }
+  
+  footer {
+    border: 2px darkred solid;
+    background-color: ivory;
+    text-align: left;
+    color: darkred;
+    position: relative;
+    height: 140px;
+    clear: both;
+  }
+  
+  footer {
+    border: 2px darkred solid;
+    background-color: ivory;
+    text-align: left;
+    color: darkred;
+    position: relative;
+    height: 170px;
+    clear: both;
+  }
