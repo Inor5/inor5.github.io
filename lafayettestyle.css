@@ -116,13 +116,14 @@ css * {
   
   section div {
     justify-content: space-evenly;
+    float:left;
     margin-left: 10px;
     margin-right: 15px;
   }
   
   
   .gallery {
-    display: block;
+    display: flexbox;
     float: right;
     justify-content: space-between;
     padding-right: 5px;
