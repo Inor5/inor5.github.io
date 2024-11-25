@@ -9,6 +9,11 @@ header {
     color: ivory;
 }
 
+h1 {
+    display: block;
+    background-color: darkred;
+}
+
 h3 {
     background-color: ivory;
     color: darkred;
@@ -16,7 +21,7 @@ h3 {
     justify-content:center;
     font-weight: bold;
     text-decoration: underline;
-  }
+}
 
 p {
     font: normal 14pt Timesnewroman;
