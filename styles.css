@@ -10,6 +10,19 @@ h1 {
     font-weight: bold;
 }
 
+header {
+    background-color: darkred;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: ivory;
+  }
+  
+h3 {
+    background-color: ivory;
+    color: darkred;
+  }
+
 p {
     font: normal 14pt Timesnewroman;
     text-indent: 20px;
@@ -38,12 +51,6 @@ span {
     width: 100%;
     margin: 7px;
     padding: 7px;
-}
-
-h3 {
-    text-align: left;
-    border-width: 100%;
-    height: max-content;
 }
 
 
