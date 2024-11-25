@@ -123,7 +123,7 @@ css * {
   
   .gallery {
     display: block;
-    float: left;
+    float: right;
     justify-content: space-between;
     padding-right: 5px;
   }
