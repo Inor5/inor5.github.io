@@ -31,6 +31,7 @@ css * {
     height: 112%;
     padding: 13px; 
     padding-bottom: 10px;
+    border-bottom: 10px;
     border: 3px ridge darkred;
   }
   
@@ -43,7 +44,7 @@ css * {
     border-top: 15px;
     border-bottom: 8px;
     background: ivory;
-    border: 2px ridge maroon;
+    border: 3px ridge maroon;
   }
   
   nav a:hover {
@@ -106,7 +107,7 @@ css * {
   }
   
   img {
-    display: flexbox;
+    display: block;
     float: right;
     justify-content: space-evenly;
     border: 3px solid maroon;
@@ -115,6 +116,7 @@ css * {
   }
   
   section div {
+    display: block;
     justify-content: space-evenly;
     float: none;
     margin-left: 10px;
