@@ -98,12 +98,14 @@ body {
 
 
 nav a {
-    display: flexbox;
+    display: block;
     text-align: center;
-    padding: 8px;
-    padding-top: 10px;
-    border: 2px solid maroon;
-    border-bottom: 0px;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 11px;
+    background: ivory;
+    border: 3px solid darkred;
 }
 
  nav a:hover {
