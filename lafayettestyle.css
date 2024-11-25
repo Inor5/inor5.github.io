@@ -106,8 +106,8 @@ css * {
   }
   
   img {
-    display: block;
-    float: none;
+    display: flexbox;
+    float: right;
     justify-content: space-evenly;
     border: 3px solid maroon;
     margin-left: 10px;
