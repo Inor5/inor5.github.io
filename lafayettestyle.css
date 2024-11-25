@@ -107,7 +107,7 @@ css * {
   
   img {
     display: block;
-    float: none;
+    float: right;
     justify-content: space-evenly;
     border: 3px solid maroon;
     margin-left: 10px;
