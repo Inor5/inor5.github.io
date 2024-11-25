@@ -1,36 +1,26 @@
 
-h1 {
-    color: ivory;
-    background-color: maroon;
-    border: ridge black;
-    width: 99%;
-    padding-left: 1px;
+header {
     text-align: center;
     font-family: "Timesnewroman";
     font-weight: bold;
-}
-
-header {
-    background-color: darkred;
     padding: 5px;
     text-align: center;
     font-size: 25px;
     color: ivory;
-  }
-  
+}
+
 h3 {
     background-color: ivory;
     color: darkred;
+    text-align: center;
+    justify-content:center;
+    font-weight: bold;
+    text-decoration: underline;
   }
 
 p {
     font: normal 14pt Timesnewroman;
     text-indent: 20px;
-}
-
-div { 
-    display: block;
-    text-align: center;
 }
 
 a {
@@ -42,8 +32,6 @@ section {
     width: 100%;
     position: relative;
     border: 2px solid black;
-    height: 150px;
-    background-color: ivory;
 }
 
 span {
@@ -83,21 +71,14 @@ body {
     text-align: center;
 }
 
-.topnav {
-    text-align: center;
-    justify-content:center;
-    font-weight: bold;
-    text-decoration: underline;
-    background-color: ivory;
-}
-
 nav a {
     display: flexbox;
     text-align: center;
     padding: 10px;
-    width: 20px;
+    height: 8px;;
+    width: 25px;
     background: ivory;
-    border: 2px solid darkred;
+    border: 2px solid ivory;
 }
 
  nav a:hover {
