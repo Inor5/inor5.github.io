@@ -88,10 +88,7 @@ body {
 .topnav a {
     display: block;
     text-align: center;
-    padding: 20px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    border-bottom: 11px;
+    padding: 10px;
     background: ivory;
     border: 3px solid darkred;
 }
@@ -100,10 +97,7 @@ body {
 nav a {
     display: block;
     text-align: center;
-    padding: 20px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    border-bottom: 11px;
+    padding: 10px;
     background: ivory;
     border: 3px solid darkred;
 }
