@@ -1,12 +1,15 @@
 
 header {
-    background-color: darkred;
     padding: 5px;
     text-align: center;
     font-size: 25px;
-    color: ivory;
 }
   
+h1 {
+    background-color: darkred;
+    color: ivory;
+}
+
 h3 {
     background-color: ivory;
     color: darkred;
@@ -25,10 +28,8 @@ a {
 section {
     width: 100%;
     position: relative;
-    height: 25px;
+    height: 20px;
     border: 2px solid black;
-    background-color: ivory;
-    
 }
 
 span {
@@ -42,12 +43,13 @@ span {
 li{
     display: list-item ;
     text-align:justify;
-    font: normal 14pt Timesnewroman
+    font: normal 14pt Timesnewroman;
 }
 
 body {
     font-family: "Timesnewroman";
     width: 100%;
+    background-color: ivory;
 }
 
 .flex-container > span {
