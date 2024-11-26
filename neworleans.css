@@ -10,13 +10,12 @@ css * {
     font-family: TimesNewRoman;
   }
   
-  /* Style the header */
   header {
     background-color: darkred;
     padding: 5px;
     text-align: center;
     font-size: 25px;
-    color: white;
+    color: ivory;
   }
   
   h3 {
