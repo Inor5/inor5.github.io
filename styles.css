@@ -3,6 +3,7 @@ header {
     padding: 5px;
     text-align: center;
     font-size: 25px;
+    border: 2px solid darkred;
 }
   
 h1 {
@@ -29,7 +30,6 @@ section {
     width: 100%;
     position: relative;
     height: 20px;
-    border: 2px solid black;
 }
 
 span {
@@ -132,7 +132,7 @@ img {
 footer {
     display: block;
     width: 100%;
-    position: absolute;
+    position: relative;
     text-align: left;
     bottom: 0;
     background-color: ivory;
