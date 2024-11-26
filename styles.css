@@ -1,6 +1,5 @@
 
 header {
-    padding: 5px;
     text-align: center;
     font-size: 25px;
     border: 2px solid darkred;
@@ -112,6 +111,7 @@ img {
     float: right;
     text-align: center;
     background-color: ivory;
+    border: 2px solid darkred;
 }
 
 .left {
@@ -136,5 +136,5 @@ footer {
     text-align: left;
     bottom: 0;
     background-color: ivory;
-    border: 1px solid black;
+    border: 2px solid darkred;
 }
