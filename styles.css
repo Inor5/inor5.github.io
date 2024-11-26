@@ -132,7 +132,7 @@ img {
 footer {
     display: block;
     width: 100%;
-    position: relative;
+    position: static;
     text-align: left;
     bottom: 0;
     background-color: ivory;
