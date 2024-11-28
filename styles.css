@@ -138,10 +138,10 @@ css * {
     clear: both;
   }
 
-  footer {
+  .footer {
     display: block;
     width: 100%;
-    position: relative;
+    position: fixed;
     text-align: left;
     bottom: 0;
     background-color: ivory;
