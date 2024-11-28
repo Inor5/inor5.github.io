@@ -132,7 +132,7 @@ css * {
     font: normal 14pt Timesnewroman;
   }
 
-  .row::after {
+  row::after {
     content: "";
     display: table;
     clear: both;
