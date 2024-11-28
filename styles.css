@@ -65,38 +65,13 @@ nav ul {
   float: right;
   width: 70%;
   height: 100%;
+  font: 16pt;
   color: darkred;
 }
 
-table {
-  margin-right: 25px;
-  margin-left: 5px;
-  background-color: ivory;
-  border: 3px darkred solid;
-  color: darkred;
-  border-bottom: 15px;
-}
-
-th {
-  border-top: 5px;
-  float: center;
-  text-decoration: underline;
-  padding: 10px;
-  padding-left: 10px;
-  border: 3px darkred ridge;
-}
-
-tr {
-  padding-bottom: 10px;
-}
-
-td {
-  border: 3px darkred ridge;
-  padding: 2px;
-  font-size: 14pt;
-  font-weight: normal;
-  padding-bottom: 2px;
-  height: 15px;
+input {
+  float: right;
+  font-size: 12pt;
 }
 
 section::after {
