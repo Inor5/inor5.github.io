@@ -132,18 +132,18 @@ css * {
     font: normal 14pt Timesnewroman;
   }
 
-  .row::after {
+  section::after {
     content: "";
     display: table;
     clear: both;
   }
 
   footer {
-    display: block;
-    width: 100%;
-    position: relative;
-    text-align: left;
-    bottom: 0;
+    border: 2px darkred solid;
     background-color: ivory;
-    border: 2px solid darkred;
+    text-align: left;
+    color: darkred;
+    position: relative;
+    height: 140px;
+    clear: both;
   }
