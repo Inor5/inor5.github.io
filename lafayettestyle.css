@@ -38,10 +38,10 @@ h3 {
 nav a {
   display: block;
   text-align: center;
-  padding: 20px;
-  padding-top: 15px;
+  padding: 15px;
+  padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 11px;
+  border-bottom: 10px;
   background: ivory;
   border: 3px solid darkred;
 }
