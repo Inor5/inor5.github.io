@@ -1,19 +1,28 @@
-
-header {
+css * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    background-color: ivory;
+  }
+  
+  body {
+    font-family: TimesNewRoman;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: darkred;
+    padding: 5px;
     text-align: center;
     font-size: 25px;
-    border: 2px solid darkred;
-}
+    color: white;
+  }
   
-h1 {
-    background-color: darkred;
-    color: ivory;
-}
-
-h3 {
+  h3 {
     background-color: ivory;
     color: darkred;
-}
+  }
 
 p {
     font: normal 14pt Timesnewroman;
