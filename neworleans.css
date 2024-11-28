@@ -118,11 +118,11 @@ css * {
   }
   
   
-  .gallery {
+  section .gallery {
     display: block;
     float: left;
     justify-content: space-between;
-    padding-right: 40px;
+    padding-right: 45px;
   }
   
   div.desc {
