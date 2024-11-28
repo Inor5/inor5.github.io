@@ -72,11 +72,7 @@ nav ul {
 
 input {
   float: right;
-  font-size: 12pt;
-}
-
-.fa {
-  font-size:24px;
+  font-size: 20px;
 }
 
 section::after {
