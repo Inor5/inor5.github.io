@@ -25,7 +25,7 @@ h3 {
 }
 
 /* Create two columns/boxes that floats next to each other */
-#column1 {
+.column1 {
   float: left;
   width: 27%;
   height: 110%;
@@ -61,7 +61,7 @@ nav ul {
   padding: 0px;
 }
 
-#column2 {
+.column2 {
   float: right;
   width: 70%;
   height: 100%;
