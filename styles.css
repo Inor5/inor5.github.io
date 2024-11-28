@@ -114,7 +114,7 @@ css * {
       
   }
 
-  .right {
+  .left {
     float: left;
     width: 27%;
     height: 110%;
@@ -124,7 +124,7 @@ css * {
     padding-bottom: 20px;
   }
 
-  .left {
+  .right {
     float: right;
     width: 70%;
     height: 100%;
@@ -141,7 +141,7 @@ css * {
   footer {
     display: block;
     width: 100%;
-    position: fixed;
+    position: relative;
     text-align: left;
     bottom: 0;
     background-color: ivory;
