@@ -112,7 +112,7 @@ img {
   border: 2px solid darkred;
 }
 
-section div {
+#flex-container {
   justify-content: space-evenly;
   background-color: ivory;
   border: 3px black darkred;
