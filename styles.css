@@ -65,13 +65,18 @@ nav ul {
   float: right;
   width: 70%;
   height: 100%;
-  font: 16pt;
+  font: 16pt; 
+  font-weight: 300;
   color: darkred;
 }
 
 input {
   float: right;
-  font-size: 12pt;
+  font-size: 14pt;
+}
+
+.fa {
+  font-size: 14pt;
 }
 
 section::after {
