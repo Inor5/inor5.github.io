@@ -66,13 +66,13 @@ nav ul {
   width: 70%;
   height: 100%;
   font: 16pt; 
-  font-weight: 300;
+  font-weight: 400;
   color: darkred;
 }
 
 input {
   float: right;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 section::after {
@@ -86,20 +86,6 @@ img {
   float: none;
   justify-content: space-evenly;
   border: 2px solid darkred;
-}
-
-section div {
-  justify-content: space-evenly;
-  background-color: ivory;
-  border: 3px black darkred;
-}
-
-
-.gallery {
-  display: block;
-  float: left;
-  justify-content: space-between;
-  padding-right: 40px;
 }
 
 div.desc {
