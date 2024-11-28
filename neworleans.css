@@ -125,7 +125,7 @@ css * {
     padding-right: 45px;
   }
   
-  div.desc {
+  div .desc {
     text-align: center;
     border: 2px solid black;
     background-color: ivory;
