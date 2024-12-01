@@ -95,8 +95,8 @@ td {
   padding: 2px;
   font-size: 14pt;
   font-weight: normal;
-  padding-bottom: 2px;
-  height: 15px;
+  padding-bottom: 4px;
+  height: 17px;
 }
 
 section::after {
