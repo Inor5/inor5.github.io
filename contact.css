@@ -21,7 +21,7 @@
   
   
   .container1 {
-    position: absolute;
+    position: relative;
     width: 252px;
     float: right;
   }
