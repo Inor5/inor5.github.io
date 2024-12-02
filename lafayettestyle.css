@@ -133,11 +133,10 @@ div.desc {
 }
 
 footer {
-  border: 2px darkred solid;
   background-color: ivory;
+  bottom: -2px;
   text-align: left;
   color: darkred;
-  position: relative;
-  height: 140px;
+  position: absolute;
   clear: both;
 }
