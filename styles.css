@@ -28,7 +28,7 @@ h3 {
 /* Create two columns/boxes that floats next to each other */
 .column1 {
   float: left;
-  bottom: -90px;
+  bottom: -70px;
   position:absolute;
   width: 27%;
   height: 50%;
