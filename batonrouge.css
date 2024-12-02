@@ -133,11 +133,10 @@ css * {
   }
   
   footer {
-    border: 2px darkred solid;
-    background-color: ivory;
-    text-align: left;
-    color: darkred;
-    position: relative;
-    height: 140px;
-    clear: both;
-  }
+  background-color: ivory;
+  bottom: -2px;
+  text-align: left;
+  color: darkred;
+  position: absolute;
+  clear: both;
+}
