@@ -28,10 +28,11 @@ h3 {
 /* Create two columns/boxes that floats next to each other */
 .column1 {
   float: left;
-  top: -240px;
   position:absolute;
+  top: 230px;
+  left: -1px;
   width: 27%;
-  height: 50%;
+  height: 30%;
   background: ivory;
   border: 3px ridge maroon;
   padding: 15px;
@@ -42,7 +43,7 @@ nav a {
   display: block;
   text-align: center;
   padding: 20px;
-  padding-top: 5px;
+  padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 10px;
   background: ivory;
