@@ -30,11 +30,11 @@ h3 {
   float: left;
   position:absolute;
   top: 230px;
-  width: 27%;
+  width: 24%;
   height: 25%;
   background: ivory;
   border: 3px solid maroon;
-  padding: 15px;
+  padding: 10px;
   padding-bottom: 20px; 
 }
 
@@ -68,7 +68,7 @@ nav ul {
   display: container;
   position: relative;
   float: right;
-  width: 70%;
+  width: 60%;
   height: 90%;
   top: 20px;
   font: 18pt; 
