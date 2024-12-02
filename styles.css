@@ -97,14 +97,9 @@ img {
   border: 2px solid darkred;
 }
 
-div.desc {
-  text-align: center;
-  border: 2px solid black;
-  background-color: ivory;
-}
 
 footer {
-  border: 2px darkred solid;
+  border: 1px darkred solid;
   background-color: ivory;
   bottom: -2px;
   text-align: left;
