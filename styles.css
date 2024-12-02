@@ -23,12 +23,15 @@ h3 {
   background-color: ivory;
   color: darkred;
 }
+	
 
 /* Create two columns/boxes that floats next to each other */
 .column1 {
   float: left;
+  bottom: -90px;
+  position:absolute;
   width: 27%;
-  height: 110%;
+  height: 50%;
   background: ivory;
   border: 3px ridge maroon;
   padding: 15px;
@@ -39,11 +42,11 @@ nav a {
   display: block;
   text-align: center;
   padding: 20px;
-  padding-top: 15px;
+  padding-top: 5px;
   padding-bottom: 10px;
-  border-bottom: 11px;
+  border-bottom: 10px;
   background: ivory;
-  border: 3px solid darkred;
+  border: 2px solid darkred;
 }
 
 nav a:hover {
@@ -62,17 +65,22 @@ nav ul {
 }
 
 .column2 {
+  display: container;
+  position: relative;
   float: right;
   width: 70%;
-  height: 100%;
-  font: 16pt; 
-  font-weight: 400;
+  height: 90%;
+  font: 18pt; 
+  font-weight: 600px;
   color: darkred;
 }
 
 input {
-  float: right;
+  dispay: block;
+  float: left;
   font-size: 12pt;
+  border: 1px solid black;
+  
 }
 
 section::after {
