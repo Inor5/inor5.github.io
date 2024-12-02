@@ -76,6 +76,14 @@ nav ul {
   color: darkred;
 }
 
+p {
+  font-size: 13pt;
+}
+
+.column2 li {
+  font-size: 13pt;
+}
+
 input {
   display: block;
   float: right;
