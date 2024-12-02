@@ -104,6 +104,6 @@ footer {
   bottom: -2px;
   text-align: left;
   color: darkred;
-  position: fixed;
+  position: absolute;
   clear: both;
 }
