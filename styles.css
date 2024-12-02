@@ -30,7 +30,6 @@ h3 {
   float: left;
   position:absolute;
   top: 230px;
-  left: -3px;
   width: 27%;
   height: 25%;
   background: ivory;
@@ -99,7 +98,6 @@ img {
 
 
 footer {
-  border: 1px darkred solid;
   background-color: ivory;
   bottom: -2px;
   text-align: left;
