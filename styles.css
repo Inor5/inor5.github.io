@@ -30,11 +30,11 @@ h3 {
   float: left;
   position:absolute;
   top: 230px;
-  left: -1px;
+  left: -3px;
   width: 27%;
-  height: 30%;
+  height: 25%;
   background: ivory;
-  border: 3px ridge maroon;
+  border: 3px solid maroon;
   padding: 15px;
   padding-bottom: 20px; 
 }
