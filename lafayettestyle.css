@@ -1,4 +1,4 @@
-css * {
+	css * {
   box-sizing: border-box;
 }
 
@@ -28,20 +28,31 @@ h3 {
 .column1 {
   float: left;
   width: 27%;
-  height: 100%;
+  height: 110%;
   background: ivory;
   border: 3px ridge maroon;
   padding: 15px;
-  padding-bottom: 15px; 
+  padding-bottom: 20px; 
+}
+
+aside {
+  width: 29%;
+  float: left;
+  margin-top: 15px;
+  padding-left: 5px;
+  margin-left: 2px;
+  font: timesnewroman 13pt;
+  background-color: ivory;
+  border: 2px solid darkred;
 }
 
 nav a {
   display: block;
   text-align: center;
-  padding: 10px;
-  padding-top: 10px;
+  padding: 20px;
+  padding-top: 15px;
   padding-bottom: 10px;
-  border-bottom: 15px;
+  border-bottom: 11px;
   background: ivory;
   border: 3px solid darkred;
 }
@@ -65,6 +76,7 @@ nav ul {
   float: right;
   width: 70%;
   height: 100%;
+  padding-bottom; 5px;
   color: ivory;
 }
 
@@ -95,8 +107,8 @@ td {
   padding: 2px;
   font-size: 14pt;
   font-weight: normal;
-  padding-bottom: 4px;
-  height: 17px;
+  padding-bottom: 2px;
+  height: 15px;
 }
 
 section::after {
@@ -110,9 +122,10 @@ img {
   float: none;
   justify-content: space-evenly;
   border: 2px solid darkred;
+  
 }
 
-#flex-container {
+section div {
   justify-content: space-evenly;
   background-color: ivory;
   border: 3px black darkred;
@@ -121,9 +134,11 @@ img {
 
 .gallery {
   display: block;
-  float: right;
+  float: left;
   justify-content: space-between;
-  padding-right: 40px;
+  padding-right: 30px;
+  padding-left: 45px;
+  padding-top: 15px;
 }
 
 div.desc {
