@@ -1,4 +1,4 @@
-	css * {
+css * {
   box-sizing: border-box;
 }
 
@@ -28,19 +28,19 @@ h3 {
 .column1 {
   float: left;
   width: 27%;
-  height: 110%;
+  height: 60%;
   background: ivory;
-  border: 3px ridge maroon;
-  padding: 15px;
-  padding-bottom: 20px; 
+  border: 3px solid maroon;
+  padding: 10px;
+  padding-bottom: 15px; 
 }
 
 aside {
-  width: 29%;
+  width: 27%;
   float: left;
-  margin-top: 15px;
+  margin-top: 25px;
   padding-left: 5px;
-  margin-left: 2px;
+  margin-left: -379px;
   font: timesnewroman 13pt;
   background-color: ivory;
   border: 2px solid darkred;
@@ -49,10 +49,10 @@ aside {
 nav a {
   display: block;
   text-align: center;
-  padding: 20px;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  border-bottom: 11px;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  border-bottom: 9px;
   background: ivory;
   border: 3px solid darkred;
 }
@@ -119,7 +119,6 @@ section::after {
 
 img {
   display: block;
-  float: none;
   justify-content: space-evenly;
   border: 2px solid darkred;
   
@@ -136,8 +135,8 @@ section div {
   display: block;
   float: left;
   justify-content: space-between;
-  padding-right: 30px;
-  padding-left: 45px;
+  padding-right: 45px;
+  padding-left: 40px;
   padding-top: 15px;
 }
 
