@@ -101,13 +101,13 @@
     clear: both;
   }
   
-  .container1 {
+  .aside {
     position: relative;
     width: 252px;
     float: right;
   }
   
-  div .container1 {
+  div .aside {
       text-align: center;
   
   }
@@ -135,7 +135,7 @@
   }
   
   
-   .container1:hover .overlay {
+   .aside:hover .overlay {
     opacity: 1;
   }
   
