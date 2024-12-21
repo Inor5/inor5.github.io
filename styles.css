@@ -111,7 +111,7 @@ aside {
 
 #idform {
   display: container;
-  position: absolute;
+  position: relative;
   float: right;
   width: 40%;
   top: 20px;
