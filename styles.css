@@ -65,8 +65,8 @@ nav ul {
 
 .column2 {
   display: container;
-  position: relative;
-  float: right;
+  position: absolute;
+  float: none;
   width: 60%;
   height: 90%;
   top: 20px;
@@ -110,7 +110,7 @@ aside {
 }
 
 .contact-aside {
-  position: relative;
+  position: absolute;
   width: 252px;
   float: right;
 }
@@ -143,7 +143,7 @@ div .contact-aside {
 }
 
 
- .contact-aside:hover:hover .overlay {
+.contact-aside:hover:hover .overlay {
   opacity: 1;
 }
 
