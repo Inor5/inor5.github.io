@@ -28,7 +28,7 @@ h3 {
 /* Create two columns/boxes that floats next to each other */
 .column1 {
   float: left;
-  position:absolute;
+  position: relative;
   top: 228px;
   width: 22%;
   height: 30%;
@@ -112,8 +112,7 @@ aside {
 #idform {
   display: container;
   position: relative;
-  float: right;
-  width: 40%;
+  float: none;
   top: 20px;
   font: 18pt; 
   font-weight: 600px;
