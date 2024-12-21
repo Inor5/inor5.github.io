@@ -8,67 +8,74 @@
     </head>
         
     <body>
-        <h1>Join us!</h1>
+        <header><h1>Join us!</h1></header>
                 <p> Create an account for updates on events and travel discounts!</p>
-            <div class="container1">
-                <img src="https://thumbs.dreamstime.com/b/contact-us-call-mail-icons-contact-us-call-mail-icons-white-background-vector-illustration-117513360.jpg" width="250px" height="200px">
-                <div class="overlay">
-                    <div class="text"></div>
-                        <ul>
-                            <h3>Contact us here</h3>
-                            <li>Phone: 1-800-Louisianafacts</li>
-                            <li>Email: louisianafacts@email.com</li>
-                            <li>Social Media: louisianafacts@socials.com</li>
-                        </ul>
-                    </div>
+        <nav class="column1">
+            <span><a href="index.html" target="_self">Home</a></span>
+            <span><a href="neworleans.html" class="active">New Orleans</a></span>
+            <span><a href="batonrough.html" target="_self">Baton Rouge</a></span>
+            <span><a href="lafayette.html" target="_self">Lafayette</a></span>
+            <span><a href="contact.html" target="_blank">Contact Us</a></span>
+        </nav>
+        <div class="aside">
+            <img src="https://thumbs.dreamstime.com/b/contact-us-call-mail-icons-contact-us-call-mail-icons-white-background-vector-illustration-117513360.jpg" width="250px" height="200px">
+            <div class="overlay">
+                <div class="text"></div>
+                    <ul>
+                        <h3>Contact us here</h3>
+                        <li>Phone: 1-800-Louisianafacts</li>
+                        <li>Email: louisianafacts@email.com</li>
+                        <li>Social Media: louisianafacts@socials.com</li>
+                    </ul>
                 </div>
-    <form id="emailForm" onsubmit="emailForm(event)">
-        <h1>Register</h1>
-        <p>Please fill in this form to create an account.</p>
+            </div>
+            <form class="column2" id="emailForm" onsubmit="emailForm(event)">
+                <h1>Register</h1>
+                <p>Please fill in this form to create an account.</p>
 
-        <label for="firstName"><b>First Name: </b></label>
-        <input type="text" placeholder="First Name" name="firstName" id="firstName" required><br><br>
+                <label for="firstName"><b>First Name: </b></label>
+                <input type="text" placeholder="First Name" name="firstName" id="firstName" required><br><br>
 
-        <label for="lastName"><b>Last Name: </b></label>
-        <input type="text" placeholder="Last Name" name="lastName" id="lastName" required><br><br>
+                <label for="lastName"><b>Last Name: </b></label>
+                <input type="text" placeholder="Last Name" name="lastName" id="lastName" required><br><br>
 
-        <label for="email"><b>Email: </b></label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                <label for="email"><b>Email: </b></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
 
-        <label for="confirmEmail"><b>Confirm Email: </b></label>
-        <input type="email" placeholder="Confirm Email" name="confirmEmail" id="confirmEmail" required><br><br>
+                <label for="confirmEmail"><b>Confirm Email: </b></label>
+                <input type="email" placeholder="Confirm Email" name="confirmEmail" id="confirmEmail" required><br><br>
 
-        <button type="submit">Register</button>
+                <button type="submit">Register</button>
 
-        <div class="container3">
-            <br>
-            <p><label for="question">Ask a Question:</label></p>
-            <textarea id="question" name="question" placeholder="Type your question here..." rows="5" cols="50"></textarea><br>
-            <button type="button" onclick="askQ()">Ask</button>
-        </div>
-    </form>
-    <script>
-        var email = document.getElementById('email');
-        var confirmEmail = document.getElementById('confirmEmail');
-
-        function emailForm(event) {
-            if (email.value !== confirmEmail.value) {
-                confirmEmail.style.borderColor = 'red'; 
-                event.preventDefault();
-                alert('Email addresses do not match. Please try again'); 
-                return false; 
-            } else {
-                confirmEmail.style.borderColor = 'green'; 
-                confirmEmail.setCustomValidity(''); // Reset custom validity
-                alert('You are now registered!');
-                return true; 
-            }
-        }
-
-        function askQ() { 
-            var question = document.getElementById("question").value;
-            alert("Question submitted. We'll get back to you on that!");
-        }
-    </script>
+                <div class="container3">
+                    <br>
+                    <p><label for="question">Ask a Question:</label></p>
+                    <textarea id="question" name="question" placeholder="Type your question here..." rows="5" cols="50"></textarea><br>
+                    <button type="button" onclick="askQ()">Ask</button>
+                </div>
+            </form>
+            <script>
+                var email = document.getElementById('email');
+                var confirmEmail = document.getElementById('confirmEmail');
+            
+                function emailForm(event) {
+                    if (email.value !== confirmEmail.value) {
+                        confirmEmail.style.borderColor = 'red'; 
+                        event.preventDefault();
+                        alert('Email addresses do not match. Please try again'); 
+                        return false; 
+                    } else {
+                        confirmEmail.style.borderColor = 'green'; 
+                        confirmEmail.setCustomValidity(''); // Reset custom validity
+                        alert('You are now registered!');
+                        return true; 
+                    }
+                }
+            
+                function askQ() { 
+                    var question = document.getElementById("question").value;
+                    alert("Question submitted. We'll get back to you on that!");
+                }
+            </script>
     </body>
 </html>
