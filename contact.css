@@ -19,6 +19,87 @@
       background-color: ivory;
    }
   
+   .column1 {
+    float: left;
+    position:absolute;
+    top: 228px;
+    width: 22%;
+    height: 30%;
+    background: ivory;
+    border: 3px solid maroon;
+    padding: 12px;
+  }
+  
+  nav a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 10px;
+    background: ivory;
+    border: 2px solid darkred;
+  }
+  
+  nav a:hover {
+    background-color: brown;
+    color: ivory;
+  }
+  
+  nav a.active {
+    background-color: maroon;
+    color: white;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  aside {
+    width: 24%;
+    float: right;
+    position: absolute;
+    top: 70%;
+    padding-left: 3px;
+    margin-left: 2px;
+    font: timesnewroman 13pt;
+    background-color: ivory;
+    border: 2px solid darkred;
+  }
+  
+  .column2 {
+    display: container;
+    position: relative;
+    float: right;
+    width: 60%;
+    height: 90%;
+    top: 20px;
+    font: 18pt; 
+    font-weight: 600px;
+    color: darkred;
+  }
+  
+  p {
+    font-size: 13pt;
+  }
+  
+  .column2 li {
+    font-size: 13pt;
+  }
+  
+  input {
+    display: block;
+    float: right;
+    font-size: 12pt;
+    border: 1px solid black;
+    
+  }
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
   
   .container1 {
     position: relative;
