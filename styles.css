@@ -1,4 +1,4 @@
-	css * {
+css * {
   box-sizing: border-box;
 }
 
@@ -91,6 +91,12 @@ input {
   
 }
 
+#idform input {
+	display: block;
+  	float: none;
+  	font-size: 12pt;
+  	border: 1px solid black;
+
 section::after {
   content: "";
   display: table;
@@ -111,17 +117,15 @@ aside {
 
 #idform {
   display: container;
-  position: relative;
-  float: none;
-  top: 20px;
+  float: left;
+  width: 20%;
   font: 18pt; 
   font-weight: 600px;
   color: darkred;
 }
 
 #contact-aside {
-  position: absolute;
-  width: 252px;
+  position: relative;
   float: right;
   color:ivory
 }
