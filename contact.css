@@ -101,13 +101,13 @@
     clear: both;
   }
   
-  .aside {
+  .contact-aside {
     position: relative;
     width: 252px;
     float: right;
   }
   
-  div .aside {
+  div .contact-aside {
       text-align: center;
   
   }
@@ -135,7 +135,7 @@
   }
   
   
-   .aside:hover .overlay {
+   .contact-aside:hover:hover .overlay {
     opacity: 1;
   }
   
