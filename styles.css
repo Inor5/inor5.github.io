@@ -120,7 +120,7 @@ aside {
   color: darkred;
 }
 
-.contact-aside {
+#contact-aside {
   position: absolute;
   width: 252px;
   float: right;
@@ -154,7 +154,7 @@ div .contact-aside {
 }
 
 
-.contact-aside:hover:hover .overlay {
+#contact-aside:hover:hover .overlay {
   opacity: 1;
 }
 
