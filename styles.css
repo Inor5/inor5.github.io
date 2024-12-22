@@ -1,5 +1,5 @@
-css * {
-  box-sizing: border-box;
+* {
+  box-sizing: border-box; /* Corrected selector */
 }
 
 html {
@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: TimesNewRoman;
+  font-family: 'Times New Roman', serif; /* Added proper font-family syntax */
 }
 
 /* Style the header */
@@ -23,18 +23,18 @@ h3 {
   background-color: ivory;
   color: darkred;
 }
-	
 
-/* Create two columns/boxes that floats next to each other */
+/* Create two columns/boxes that float next to each other */
 .column1 {
   float: left;
-  position: relative;
-  top: 228px;
-  width: 22%;
+  position: absolute;
+  top: 208px;
+  width: 24%;
   height: 30%;
   background: ivory;
   border: 3px solid maroon;
-  padding: 12px;
+  padding: 10px;
+  
 }
 
 nav a {
@@ -64,17 +64,16 @@ nav ul {
 }
 
 .column2 {
-  display: container;
+  display: flexbox; 
   position: relative;
   float: right;
   width: 60%;
-  height: 90%;
-  top: 20px;
-  font: 18pt; 
-  font-weight: 600px;
+  height: 35%;
+  top: 0px;
+  font-size: 18pt; 
+  font-weight: 300; 
   color: darkred;
 }
-
 
 p {
   font-size: 13pt;
@@ -89,14 +88,8 @@ input {
   float: right;
   font-size: 12pt;
   border: 1px solid black;
-  
+  margin-left: 10px;
 }
-
-#idform input {
-	display: block;
-  	float: none;
-  	font-size: 12pt;
-  	border: 1px solid black;
 
 section::after {
   content: "";
@@ -104,77 +97,86 @@ section::after {
   clear: both;
 }
 
+.row {
+	display: flex;
+    float: right;
+    margin: auto;
+    padding-right: 210px;
+    padding-top: 15px;
+}
+
+.column img {
+  display: block;
+  float: right;
+  border: 2px solid darkred;
+  height: 200px;
+}
+
+.desc {
+  text-align: center; /* Align descriptions to center */
+  font-size: 12pt; /* Adjust font size for descriptions */
+}
+
+table {
+  width: 100%;
+  margin-right: 20px;
+  background-color: ivory;
+  border: 3px darkred solid;
+  color: darkred;
+  border-bottom: 5px;
+}
+
+th {
+  border-top: 5px;
+  text-decoration: underline;
+  padding: 10px;
+  padding-left: 10px;
+  border: 3px darkred ridge;
+}
+
+tr {
+  padding-bottom: 10px;
+}
+
+td {
+  border: 3px darkred ridge;
+  padding: 2px;
+  font-size: 14pt;
+  font-weight: normal;
+  padding-bottom: 2px;
+  height: 15px;
+}
+
 aside {
+  position: absolute;
   width: 24%;
   float: left;
-  position: absolute;
-  top: 70%;
-  padding-left: 3px;
+  bottom: 200px;
+  padding-left: 5px;
   margin-left: 2px;
-  font: timesnewroman 13pt;
+  font: 'Times New Roman', serif; 
+  font-size: 13pt;
   background-color: ivory;
   border: 2px solid darkred;
 }
 
-#idform {
-  display: container;
-  float: left;
-  width: 20%;
-  font: 18pt; 
-  font-weight: 600px;
-  color: darkred;
-}
-
-#contact-aside {
-  position: relative;
+.column {
   float: right;
-  color:ivory
+  padding: 0px;
+  border: 2px solid black;
+  margin-right: 10px;
 }
 
-div .contact-aside {
-    text-align: center;
-
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-
-
-.text {
-    text-align: center;
-    color: black;
-    font-size: 16px;
-    position: absolute;
-    float: right;
-    top: 50%;
-    left: 50%;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: darkred;
-}
-
-
-#contact-aside:hover:hover .overlay {
-  opacity: 1;
-}
-
-img {
-  display: block;
-  float: none;
-  justify-content: space-evenly;
-  border: 2px solid darkred;
-}
-
 
 footer {
   background-color: ivory;
   bottom: -2px;
   text-align: left;
-  color: darkred;
+  position: absolute;
   clear: both;
 }
